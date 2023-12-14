@@ -143,6 +143,7 @@ h2{
     border-radius: 30px;
 }
 
+
 table, th, td {
     border: 1px solid aliceblue;
     border-collapse: collapse;
@@ -156,5 +157,8 @@ table, th, td {
 
   }
 
-
-  
+  @media (max-width: 600px) {
+    .main-content {
+        flex-direction: column;
+    }
+}
