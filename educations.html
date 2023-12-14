@@ -4,30 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Educations</title>
-    <link rel="icon" href="Images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="Images/faviconblue.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="educations.html">Educations</a>
-        <a href="contact.html">Contact</a>
-        <a href="workexperience.html">Workexperience</a>
-    </nav>
-    <h2>Educations</h2>
-    <ol type="1">
-        <li>IT-högskolan Göteborg
-            <ul>
-                <li>Programming with C#</li>
-                <li>Databases</li>
-                <li>Webdevelopment</li>
-            </ul>
-        </li>
-        <li>Göteborgs Univeritet
-            <ul>
-                <li>Teacher years 7-9, Mathematics, Technology and science</li>
-            </ul>
-        </li>
-        <li>Kattegattgymnasiet Halmstad</li>
-    </ol>
+    <header>
+        <div class="flex-container">
+            <div class="flex-item">
+                <a href="index.html">About me</a>
+            </div>
+            <div class="flex-item">
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="flex-item">
+                <a href="educations.html">Educations</a>
+            </div>           
+            <div class="flex-item">
+                <a href="workexperience.html">Workexperience</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h1>Angela Emanuelsson</h1>
+        <div class="container">       
+            <div class="main-content">
+                <div class="column1">                  
+                    <img src="Images/cv1.jpg" title="Profilbild" alt="Bild på mig" class="profile-img">
+                </div>
+                <div class="column2">
+                    <h2>Educations</h2>
+                        <ul id="educations">
+                            <br>
+                            <li>IT-högskolan Göteborg
+                                <ul class="courses">
+                                    <li>Programming with C#</li>
+                                    <li>Databases</li>
+                                    <li>Webdevelopment</li>
+                                </ul>
+                            </li>
+                            <br>
+                            <li>Göteborgs Univeritet
+                                <ul class="courses">
+                                    <li>Teacher years 7-9, Mathematics, Technology and science</li>
+                                </ul>
+                            </li>
+                            <br>
+                            <li>Kattegattgymnasiet Halmstad</li>
+                            <ul class="courses">
+                               <li>Naturvetenskapsprogrammet</li>
+                            </ul>
+                        </ul>     
+                </div>
+            </div>   
+        </div>
+        <div>
+            <br>
+            <h2 class="skills">
+                <label>My Linkedin profile:   </label>
+                <a href="https://www.linkedin.com/in/angelaemanuelsson/">
+                    <img src="Images/linkedin.png" alt="Linked in logga" class="ln-img">
+                </a>
+            </h2>
+    
 </body>
 </html>
