@@ -1,7 +1,15 @@
+@media (max-width: 600px) {
+    * {
+        flex-direction: column;
+    }
+}
+
 *{
     margin: 0px;
     padding: 0px;
 }
+
+
 
 body{
     background-image: url('Images/bakgrund.png');
@@ -73,7 +81,7 @@ a{
 .profile-img{
     width: 150px;
     height: 220px;
-    border-radius: 100px;
+    border-radius: 50%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 5);
     margin: 50px 0 0 0;
     
@@ -87,7 +95,7 @@ a{
 
 h1{
     color: #003366;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Kalnia', serif;
     padding-top: 40px;
     padding-left: 130px;
     position: absolute;
@@ -139,7 +147,8 @@ h2{
     color: aliceblue;
     width: 130px;
     padding: 20px;
-    margin: 10px 0 0 550px;
+    position:relative;
+    top: 10px;
     border-radius: 30px;
 }
 
@@ -157,8 +166,4 @@ table, th, td {
 
   }
 
-  @media (max-width: 600px) {
-    .main-content {
-        flex-direction: column;
-    }
-}
+  
