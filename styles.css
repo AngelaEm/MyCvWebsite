@@ -55,6 +55,7 @@ a{
     padding: 20px;
     text-align: center;
     border-radius: 20px;
+    position: relative;
 }
 
 .column2 {
@@ -64,7 +65,7 @@ a{
     margin: 20px 100px 0px 100px;
     padding: 20px;
     border-radius: 20px;
-    height:280px
+    height:auto
 }
 
 .skills-column{
@@ -83,7 +84,7 @@ a{
     height: 220px;
     border-radius: 50%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 5);
-    margin: 50px 0 0 0;
+    
     
 }
 
@@ -96,9 +97,10 @@ a{
 h1{
     color: #003366;
     font-family:'Kalnia', serif;
-    padding-top: 40px;
-    padding-left: 130px;
-    position: absolute;
+    padding-left: 70px;
+    padding-bottom: 30px;
+
+
 }
 
 h4{
@@ -132,14 +134,17 @@ h2{
 }
 
 #educations{
-    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
     color: #003366;
     font-weight: bold;
+    list-style-position: inside;
 }
 
 .courses{
     font-weight: lighter;
     padding-left: 10px;
+    list-style-position: inside;
 }
 
 .download-cv{
@@ -157,13 +162,18 @@ table, th, td {
     border: 1px solid aliceblue;
     border-collapse: collapse;
         
-  }
+}
 
-  th, td {
-      background-color: #003366;
-      color: aliceblue;
-      padding: 15px;
+th, td {
+    background-color: #003366;
+    color: aliceblue;
+    padding: 15px;
 
-  }
+}
 
-  
+table{
+margin-left: auto;
+margin-right: auto;
+
+}
+
