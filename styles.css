@@ -9,8 +9,6 @@
     padding: 0px;
 }
 
-
-
 body{
     background-image: url('Images/bakgrund.png');
     background-size: cover; 
@@ -20,8 +18,7 @@ body{
 }
 
 .flex-container {
-    display: flex;
-    justify-content: space-between;
+    display: flex;  
     background-color:#f4f4f4;
 }
 
@@ -38,38 +35,43 @@ a{
     color: aliceblue;
 }
 
-.container, .container-skills{
-    display: flex;
-    flex-direction: column;
-}
-
-.main-content {
-    display: flex;
-    flex-grow: 1;
-
-}
 
 .column1 {
-    flex: 1; 
-    margin: 35px 0 0 0;
     padding: 20px;
     text-align: center;
-    border-radius: 20px;
-    position: relative;
+}
+
+h1{
+    color: #003366;
+    font-family:'Kalnia', serif;
+}
+
+h2, h4{
+    color: #003366;
+}
+
+.profile-img{
+    width: 180px;
+    height: 260px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 5);   
+    margin-top: 30px;  
 }
 
 .column2 {
-    flex: 1; 
     background-color: #87CEEB;
+    margin-top: 20px;
     text-align: center;
-    margin: 20px 100px 0px 100px;
     padding: 20px;
     border-radius: 20px;
     height:auto
 }
 
+p{
+    color: aliceblue;
+}
+
 .skills-column{
-    flex: 1; 
     background-color: #003366;
     color: aliceblue;
     margin: 15px;
@@ -79,46 +81,10 @@ a{
 
 }
 
-.profile-img{
-    width: 150px;
-    height: 220px;
-    border-radius: 50%;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 5);
-    
-    
-}
-
 .ln-img{
     width: 30px;
     height: 30px;
     align-items: center;
-}
-
-h1{
-    color: #003366;
-    font-family:'Kalnia', serif;
-    padding-left: 70px;
-    padding-bottom: 30px;
-
-
-}
-
-h4{
-    color: #003366;
-    font-family:Arial, Helvetica, sans-serif;
-}
-
-p{
-    font-size: 1rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: aliceblue;
-}
-
-pre{
-    font-size: 1rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: aliceblue;
-    text-align: left;
 }
 
 .skills{
@@ -127,10 +93,6 @@ pre{
     padding: 5px;
     text-align: center;
     border-radius: 30;
-}
-
-h2{
-    color: #003366;
 }
 
 #educations{
@@ -157,7 +119,6 @@ h2{
     border-radius: 30px;
 }
 
-
 table, th, td {
     border: 1px solid aliceblue;
     border-collapse: collapse;
@@ -167,7 +128,7 @@ table, th, td {
 th, td {
     background-color: #003366;
     color: aliceblue;
-    padding: 15px;
+    padding: 5px;
 
 }
 
